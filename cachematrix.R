@@ -3,6 +3,7 @@
 ## Cheers fellow R learner, I provided you with a comment for every major section of my formulas so you find it easy to follow. Have fun correcting!
 ## Generally speaking, we would like to identify a matrix, fixing it in position to use it for future caluclations, setting its value and also
 ## setting the value of the inverse of said matrix. I mainly followed the example structure given in the assignement information. 
+## As you know, everything starting with ## is a markdown section and only helps you to understand my thinking. Thank you and have fun!
 MakeCacheMatrix <- function(x = matrix()){
   ## assuming that the matrix is invertible
   inv <- NULL
@@ -39,6 +40,6 @@ CacheSolve <- function(x, ...) {
   return(inv)
 }
 
-## Overall, all we did hear, was defining a matrix, fixing it (since we might compute with it multiple times in the future) and getting its inverse to ensure 
+## Overall, all we did here, was defining a matrix, fixing it (since we might compute with it multiple times in the future) and getting its inverse to ensure 
 ## its uniqueness and calculability. I have to admit that I stumbled across some problems when testing my formulas with a couple matrices. For example the 4 by matrix
 ## created an error, stating that the inverse is perfectly singular. I will check my problem and see if I can improve the formula. It does its job for the most part.
